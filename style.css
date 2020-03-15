@@ -103,6 +103,9 @@ p {
 .cardp:hover {
   transform: scale(1.01, 1.01);
 }
+.fa {
+  width: 15%;
+}
 @media (max-width: 830px) {
   .about {
     flex-direction: column;
