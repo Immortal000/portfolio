@@ -52,13 +52,16 @@ section {
 
 .card:hover {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 .card .side {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 .card .back {
   padding-bottom: 10px;
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   font-size: 18px;
 }
 
