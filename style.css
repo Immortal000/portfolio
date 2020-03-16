@@ -46,8 +46,7 @@ section {
   transition: all 1s ease-in-out;
   transform-style: preserve-3d;
   height: 170px;
-  cursor: pointer;
-  text-align: center;
+  text-align: left;
 }
 
 .card {
@@ -92,6 +91,7 @@ p {
 .cardp {
   transition: all 0.1s ease-in-out;
   width: 30%;
+  text-align: center;
 }
 .cardp:hover {
   transform: scale(1.01, 1.01);
@@ -107,6 +107,7 @@ button {
   margin-top: 1%;
   outline: none;
   border: none;
+  font-size: 20px;
 }
 @media (max-width: 830px) {
   .about {
@@ -119,10 +120,11 @@ button {
   .projects {
     flex-direction: column;
   }
-  section{
-    margin-top:10%;
+  section {
+    margin-top: 10%;
   }
-  button{
-    width:100%;
+  button {
+    width: 100%;
+    margin-top: 3%;
   }
 }
