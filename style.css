@@ -14,18 +14,18 @@ section {
 }
 
 .introduction h1 {
-  font-size: 11vh;
+  font-size: 10vh;
   background-image: linear-gradient(to right, #021b79, #0575e6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .introduction h2 {
-  font-size: 4vh;
+  font-size: 24px;
 }
 
 .introduction h4 {
-  font-size: 3vh;
+  font-size: 15px;
   line-height: 2rem;
 }
 
@@ -102,8 +102,8 @@ p {
 }
 
 button {
-  width: 20%;
-  padding: 10px;
+  width: 300px;
+  padding: 20px;
   margin-top: 1%;
   outline: none;
   border: none;
