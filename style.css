@@ -119,4 +119,7 @@ button {
   .projects {
     flex-direction: column;
   }
+  section{
+    margin-top:10%;
+  }
 }
