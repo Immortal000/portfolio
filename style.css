@@ -47,6 +47,8 @@ section {
   transform-style: preserve-3d;
   height: 170px;
   text-align: left;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .card {
