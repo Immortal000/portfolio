@@ -122,4 +122,7 @@ button {
   section{
     margin-top:10%;
   }
+  button{
+    width:100%;
+  }
 }
